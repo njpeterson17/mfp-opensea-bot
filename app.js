@@ -21,8 +21,7 @@ function formatAndSendTweet(event) {
     const formattedEthPrice = formattedUnits * tokenEthPrice;
     const formattedUsdPrice = formattedUnits * tokenUsdPrice;
 
-    const tweetText = `${assetName} has been copped!
-    #DesignerPunks #NFT #PolygonNFT ${openseaLink}`;
+    const tweetText = `${assetName} has been copped! #DesignerPunks #NFT #PolygonNFT ${openseaLink}`;
 
     console.log(tweetText);
 
